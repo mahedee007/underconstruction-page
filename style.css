@@ -1,11 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700;900&display=swap');
 
 
-body{
+*{
     padding:0;
     margin: 0;
     box-sizing: border-box;
+    /* height: 100vh;
+    width: 100%; */
+    font-family: 'Fraunces', serif;
+}
+
+.container{
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url(./images/background-8033597_1920.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     width: 100%;
-    font-family: 'Fraunces', serif;
+    position: relative;
+    padding-top: 100px;
+
+}
+.container h1{
+    color: #fff;
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+   
+}
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}
+.counter p, span{
+    color: #fff;
 }
