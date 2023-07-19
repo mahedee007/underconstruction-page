@@ -35,6 +35,10 @@
     margin-top: 50px;
     
 }
+.counter p{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
 .counter p, span{
     color: #fff;
 }
